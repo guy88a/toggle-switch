@@ -101,8 +101,8 @@ table {
 }
 
 #ToggleSwitch #toggle-switch .wrapper__content__input__checkbox:checked + label:after {
-  -webkit-transform: translateX(-81%);
-          transform: translateX(-81%);
+  -webkit-transform: translateX(-80%);
+          transform: translateX(-80%);
   border: 2px solid #7b2fde;
 }
 
@@ -125,7 +125,7 @@ table {
 #ToggleSwitch #toggle-switch .wrapper__content__input__label:after {
   content: '';
   display: block;
-  width: 56%;
+  width: 1.5em;
   height: 100%;
   padding: 2px;
   background-color: #fff;

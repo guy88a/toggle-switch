@@ -13,7 +13,7 @@ function App() {
   return (
     <div id="ToggleSwitch" className="App">
       <div className="toggle-switch-app-container">
-        <ToggleSwitch size={14} states={[isChecked, onToggle]} text={'אפשרות פילטור'} />
+        <ToggleSwitch size={14} states={[isChecked, onToggle]} />
       </div>
       
     </div>

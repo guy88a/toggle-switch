@@ -46,7 +46,7 @@
                             background-color: #7b2fde;
 
                             &:after {
-                                transform: translateX(-81%);
+                                transform: translateX(-80%);
                                 border: 2px solid #7b2fde;
                             }
                         }
@@ -68,7 +68,7 @@
                         &:after {
                             content: '';
                             display: block;
-                            width: 56%;
+                            width: 1.5em;
                             height: 100%;
                             padding: 2px;
 
