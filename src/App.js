@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import './CSS/index.css';
+import ToggleSwitch from './CSS/COMPONENTS/ToggleSwitch';
 
 function App() {
+
+  const [isChecked, setIsChecked] = useState(false);
+
+  function onToggle() {
+    setIsChecked(!isChecked);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="ToggleSwitch" className="App">
+      <div className="toggle-switch-app-container">
+        <ToggleSwitch size={14} states={[isChecked, onToggle]} text={'אפשרות פילטור'} />
+      </div>
+      
     </div>
   );
 }
