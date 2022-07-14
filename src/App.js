@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './CSS/index.css';
-import ToggleSwitch from './CSS/COMPONENTS/ToggleSwitch';
+import ToggleSwitch from './COMPONENTS/ToggleSwitch';
 
 function App() {
 
